@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Нёрдс Каталог</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-navigation">
+        <ul class="header-navigation-list">
+          <li class="header-logo"><a href="index.html"><img src="logo.img" width="50" height="50" alt="Логотип Нёрдс"></a></li>
+          <li class="header-menu-item"><a href="#">Студия</a></li>
+          <li class="header-menu-item"><a href="#">Клиенты</a></li>
+          <li class="header-menu-item"><a href="#">Магазин</a></li>
+          <li class="header-menu-item"><a href="#">Контакты</a></li>
+          <li class="header-menu-item"><a href="#">Корзина</a></li>
+        </ul>
+      </nav>
+    </header>
+<main>
+    <h1>Магазин готовых шаблонов</h1>
 
+
+  <!--  <form action="https://echo.htmlacademy.ru" method="get">
+
+    <fieldset>
+    	<legend>Стоимость</legend>
+    	<input type="range" name="range" >
+    </fieldset>
+
+  </form> не знаю как делать первый филсет, пока оставила-->
+
+ <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+   <fieldset>
+     <legend>Сетка</legend>
+      <ul>
+        <li>
+          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="adaptive" checked>
+          Адаптивная</li>
+        <li>
+          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="fixed">
+          Фиксированная</li>
+        <li>
+          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="rubber" >
+          Резиновая</li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>Особенности</legend>
+        <ul>
+    	    <li>
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" checked>
+            Слайдер</li>
+          <li>
+            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="block-features">
+            Блок преимуществ</li>
+          <li>
+            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="news" checked>
+            Новости</li>
+          <li>
+            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="gallery" >
+            Галерея</li>
+    	    <li>
+    	      <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="basket" >Корзина
+          </li>
+        </ul>
+      </fieldset>
+         <button type="submit" class="filter-button button">Показать</button>
+    </form>
+
+    <div class="separator">
+      <p>Сортировать:</p>
+      <ul>
+        <li>По цене</li>
+        <li>По типу</li>
+        <li>По названию</li>
+      </ul>
+    </div>
+
+  <section class="menu">
+    <h2 class="visually hidden">Меню магазина шаблонов</h2>
+    <ul>
+    	<li class="menu-item"><section>
+    		<img src="sedona.img" alt="Sedona" width="50" height="50">
+    		<h3>Sedona</h3>
+    	  <p>Информационный сайт для туристов</p>
+    		<p class="button"><a href="#">9 900 руб.</a></p>
+    	      </section>
+    	</li>
+      <li class="menu-item">
+    		<a href="#">
+    		<img src="pink.img" alt="Pink" width="50" height="50">
+    	  </a>
+    	</li>
+  	  <li class="menu-item">
+    		<a href="#">
+    		<img src="barbershop.img" alt="Barbershop" width="50" height="50">
+    	  </a>
+    	</li>
+    	<li class="menu-item">
+    		<a href="#">
+    		<img src="mishka.img" alt="Mishka" width="50" height="50">
+    	  </a>
+    	</li>
+    	<li class="menu-item">
+    		<a href="#">
+    		<img src="A.img" alt="A+" width="50" height="50">
+    	  </a>
+    	</li>
+    	<li class="menu-item">
+    		<a href="#">
+    		<img src="kvast.img" alt="Kvast" width="50" height="50">
+    	  </a>
+    	</li>
+    </ul>
+    <ul class="pagination-list">
+      <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+      <li class="pagination-item"><a>2</a></li>
+      <li class="pagination-item"><a href="#">3</a></li>
+      <li class="pagination-item"><a href="#">Следущая</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+	<img src="map.img" width="50" height="50" alt="Карта проезда">
+	<section class="footer-contacts">
+	  <h3>NЁrds design studio</h3>
+	  <p>191186, Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
+	  <p>тел. +7(812)275-75-75</p>
+    <a href="#" class="button">Напишите нам</a>
+  </section>
+	<div class="footer-social">
+	<p><b>Давайте дружить, это выгодно</b></p>
+	<p>Скидка 10% для друзей социальных сетей</p>
+	<ul>
+	  <li class="social-button"><a href="#">Вконтакте</a></li>
+	  <li class="social-button"><a href="#">Фейсбук</a></li>
+	  <li class="social-button"><a href="#">Twitter</a></li>
+	</ul>
+</div>
+</footer>
+
+</body>
+</html>
