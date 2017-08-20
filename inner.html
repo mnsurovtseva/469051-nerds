@@ -9,7 +9,7 @@
     <header class="header">
       <nav class="header-navigation">
         <ul class="header-navigation-list">
-          <li class="header-logo"><a href="index.html"><img src="logo.img" width="50" height="50" alt="Логотип Нёрдс"></a></li>
+          <li class="header-logo"><a href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс"></a></li>
           <li class="header-menu-item"><a href="#">Студия</a></li>
           <li class="header-menu-item"><a href="#">Клиенты</a></li>
           <li class="header-menu-item"><a href="#">Магазин</a></li>
@@ -20,16 +20,16 @@
     </header>
 <main>
     <h1 class="main-header">Магазин готовых шаблонов</h1>
-<form class="filter" method="get" action="https://echo.htmlacademy.ru">
-
-  <!--
+<form class="filter" method="get" action="https://echo.htmlacademy.ru" oninput="output.value=range.value">
 
     <fieldset>
     	<legend>Стоимость</legend>
-    	<input type="range" name="range" >
+    	<input type="range" name="range" id="range" min="0" max="20000" step="1" value="15000">
+      <p>от 0</p>
+      <p>до
+      <output name="output">15000</output>
+      </p>
     </fieldset>
-
-  не знаю как делать первый филсет, пока оставила-->
 
 
    <fieldset>
@@ -82,7 +82,7 @@
     <h2 class="visually hidden">Меню магазина шаблонов</h2>
     <ul>
     	<li class="menu-item"><section>
-    		<img src="sedona.img" alt="Sedona" width="50" height="50">
+    		<img src="img/img-sedona.jpg" alt="Sedona" width="360" height="576">
     		<h3>Sedona</h3>
     	  <p>Информационный сайт для туристов</p>
     		<p class="button"><a href="#">9 900 руб.</a></p>
@@ -90,27 +90,27 @@
     	</li>
       <li class="menu-item">
     		<a href="#">
-    		<img src="pink.img" alt="Pink" width="50" height="50">
+    		<img src="img/img-pink.jpg" alt="Pink" width="360" height="576">
     	  </a>
     	</li>
   	  <li class="menu-item">
     		<a href="#">
-    		<img src="barbershop.img" alt="Barbershop" width="50" height="50">
+    		<img src="img/img-barbershop.jpg" alt="Barbershop" width="360" height="576">
     	  </a>
     	</li>
     	<li class="menu-item">
     		<a href="#">
-    		<img src="mishka.img" alt="Mishka" width="50" height="50">
+    		<img src="img/img-mishka.jpg" alt="Mishka" width="360" height="576">
     	  </a>
     	</li>
     	<li class="menu-item">
     		<a href="#">
-    		<img src="A.img" alt="A+" width="50" height="50">
+    		<img src="img/img-aplus.jpg" alt="A+" width="360" height="576">
     	  </a>
     	</li>
     	<li class="menu-item">
     		<a href="#">
-    		<img src="kvast.img" alt="Kvast" width="50" height="50">
+    		<img src="img/img-kvast.jpg" alt="Kvast" width="360" height="576">
     	  </a>
     	</li>
     </ul>
@@ -124,7 +124,7 @@
 </main>
 
 <footer>
-	<img src="map.img" width="50" height="50" alt="Карта проезда">
+	<img src="img/map.png" width="1440" height="416" alt="Карта проезда">
 	<section class="footer-contacts">
 	  <h3>NЁrds design studio</h3>
 	  <p>191186, Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
