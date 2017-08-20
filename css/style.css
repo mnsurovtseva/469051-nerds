@@ -1,1 +1,23 @@
+body {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  font-weight: normal;
+  font-family: Roboto;
+}
 
+.application-header {
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.main-header {
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
+  font-weight: bold;
+  font-family: Roboto;
+}
