@@ -24,6 +24,7 @@
 
     <fieldset>
     	<legend>Стоимость</legend>
+      <lable for="range" class="visually-hidden">Фильтр стоимости</lable>
     	<input type="range" name="range" id="range" min="0" max="20000" step="1" value="15000">
       <p>от 0</p>
       <p>до
@@ -36,33 +37,41 @@
      <legend>Сетка</legend>
       <ul>
         <li>
-          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="adaptive" checked>
-          Адаптивная</li>
+          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="adaptive" id="adaptive" checked>
+          <lable for="adaptive">Адаптивная</lable>
+        </li>
         <li>
-          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="fixed">
-          Фиксированная</li>
+          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="fixed id="fixed">
+          <lable for="fixed">Фиксированная</lable>
+        </li>
         <li>
-          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="rubber" >
-          Резиновая</li>
+          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="rubber" id="rubber" >
+          <lable for="rubber">Резиновая</lable>
+        </li>
       </ul>
     </fieldset>
     <fieldset>
       <legend>Особенности</legend>
         <ul>
     	    <li>
-            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" checked>
-            Слайдер</li>
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="slider" checked>
+            <lable for="slider">Слайдер</lable>
+          </li>
           <li>
-            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="block-features">
-            Блок преимуществ</li>
+            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="block-features" id="block-features">
+            <lable for="block-features">Блок преимуществ</lable>
+          </li>
           <li>
-            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="news" checked>
-            Новости</li>
+            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="news" id="news" checked>
+            <lable for="news">Новости</lable>
+          </li>
           <li>
-            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="gallery" >
-            Галерея</li>
+            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="gallery" id="gallery" >
+            <lable for="gallery">Галерея</lable>
+          </li>
     	    <li>
-    	      <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="basket" >Корзина
+    	      <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="basket" id="basket">
+          <lable for="basket">Корзина</lable>
           </li>
         </ul>
       </fieldset>
