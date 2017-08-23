@@ -12,7 +12,7 @@
           <li class="header-logo"><a href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс"></a></li>
           <li class="header-menu-item"><a href="#">Студия</a></li>
           <li class="header-menu-item"><a href="#">Клиенты</a></li>
-          <li class="header-menu-item"><a href="#">Магазин</a></li>
+          <li class="header-menu-item"><a href="inner.html">Магазин</a></li>
           <li class="header-menu-item"><a href="#">Контакты</a></li>
           <li class="header-menu-item"><a href="#">Корзина</a></li>
         </ul>
@@ -21,9 +21,21 @@
     <main>
     <section class="description">
       <h1 class="description visually-hidden">Описание сайта</h1>
+      <p class="description-1">
       <p><b>Долго, дорого, скрупулезно.</b><p>
       <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
       <p class="button"><a href="#">Узнать больше</a><p>
+      </p>
+      <p class="description-2">
+      <p><b>Любим математику как никто другой</b><p>
+      <p>Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+      <p class="button"><a href="#">Узнать больше</a><p>
+      </p>
+      <p class="description-3">
+      <p><b>Только ночь, только хардкор</b><p>
+      <p>Работать днем как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+      <p class="button"><a href="#">Узнать больше</a><p>
+      </p>
     </section>
     <section class="variants">
       <h2 class="variats visually-hidden">Варианты дизайнов</h2>
@@ -89,7 +101,7 @@
 <section class="links">
 	 <h3 class="visually-hidden">Ссылки на другие ресурсы</h3>
 	 <ul>
-	   <li><a href="#"><img src="img/logo-1.png" width="199" height="68" alt="HTML Academy"></a></li>
+	   <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-1.png" width="199" height="68" alt="HTML Academy"></a></li>
 	   <li><a href="#"><img src="img/logo-2.png" width="209" height="90" alt="Barbershop Borodinski"></a></li>
 	   <li><a href="#"><img src="img/logo-3.png" width="185" height="52" alt="Pink"></a></li>
 	   <li><a href="#"><img src="img/logo-4.png" width="173" height="84" alt="Mishka"></a></li>
@@ -116,5 +128,22 @@
 </div>
 </footer>
 
+<section class="modal write-us">
+     <h2>Напишите нам</h2>
+     <form action="https://echo.htmlacademy.ru" method="post">
+         <p><lable for="login">Ваше имя</lable>
+         <input class="write-us-name" type="text" name="login" placeholder="Представьтесь, пожалуйста" id="login"></p>
+
+
+         <p><lable for="email">Ваш e-mail</lable>
+         <input class="write-us-email" type="email" name="email" placeholder="Для отправки ответа" id="email"></p>
+
+         <p><lable for="text">Текст письма</lable>
+         <textarea id="text">В свободной форме</textarea></p>
+
+       <button class="button" type="submit">Отправить</button>
+     </form>
+    <button class="modal-close">Закрыть</button>
+   </section>
 </body>
 </html>

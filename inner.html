@@ -24,8 +24,8 @@
 
     <fieldset>
     	<legend>Стоимость</legend>
-      <lable for="range" class="visually-hidden">Фильтр стоимости</lable>
-    	<input type="range" name="range" id="range" min="0" max="20000" step="1" value="15000">
+      <p><lable for="range" class="visually-hidden">Фильтр стоимости</lable>
+    	<input type="range" name="range" id="range" min="0" max="20000" step="1" value="15000"></p>
       <p>от 0</p>
       <p>до
       <output name="output">15000</output>
@@ -37,16 +37,16 @@
      <legend>Сетка</legend>
       <ul>
         <li>
-          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="adaptive" id="adaptive" checked>
-          <lable for="adaptive">Адаптивная</lable>
+          <p><input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="adaptive" id="adaptive" checked>
+          <lable for="adaptive">Адаптивная</lable></p>
         </li>
         <li>
-          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="fixed id="fixed">
-          <lable for="fixed">Фиксированная</lable>
+          <p><input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="fixed" id="fixed">
+          <lable for="fixed">Фиксированная</lable></p>
         </li>
         <li>
-          <input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="rubber" id="rubber" >
-          <lable for="rubber">Резиновая</lable>
+          <p><input class="visually-hidden filter-input filter-input-radio" type="radio" name="set" value="rubber" id="rubber" >
+          <lable for="rubber">Резиновая</lable></p>
         </li>
       </ul>
     </fieldset>
@@ -54,24 +54,24 @@
       <legend>Особенности</legend>
         <ul>
     	    <li>
-            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="slider" checked>
-            <lable for="slider">Слайдер</lable>
+            <p><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="slider" checked>
+            <lable for="slider">Слайдер</lable></p>
           </li>
           <li>
-            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="block-features" id="block-features">
-            <lable for="block-features">Блок преимуществ</lable>
+            <p><input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="block-features" id="block-features">
+            <lable for="block-features">Блок преимуществ</lable></p>
           </li>
           <li>
-            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="news" id="news" checked>
-            <lable for="news">Новости</lable>
+            <p><input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="news" id="news" checked>
+            <lable for="news">Новости</lable></p>
           </li>
           <li>
-            <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="gallery" id="gallery" >
-            <lable for="gallery">Галерея</lable>
+            <p><input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="gallery" id="gallery" >
+            <lable for="gallery">Галерея</lable></p>
           </li>
     	    <li>
-    	      <input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="basket" id="basket">
-          <lable for="basket">Корзина</lable>
+    	      <p><input class="visually-hidden filter-input filter-checkbox" type="checkbox" name="basket" id="basket">
+          <lable for="basket">Корзина</lable></p>
           </li>
         </ul>
       </fieldset>
@@ -91,36 +91,46 @@
     <h2 class="visually hidden">Меню магазина шаблонов</h2>
     <ul>
     	<li class="menu-item"><section>
-    		<img src="img/img-sedona.jpg" alt="Sedona" width="360" height="576">
+    		<a href="#"><img src="img/img-sedona.jpg" alt="Sedona" width="360" height="576"></a>
     		<h3>Sedona</h3>
     	  <p>Информационный сайт для туристов</p>
     		<p class="button"><a href="#">9 900 руб.</a></p>
     	      </section>
     	</li>
-      <li class="menu-item">
-    		<a href="#">
-    		<img src="img/img-pink.jpg" alt="Pink" width="360" height="576">
-    	  </a>
+      <li class="menu-item"><section>
+    		<a href="#"><img src="img/img-pink.jpg" alt="Pink" width="360" height="576"></a>
+    		<h3>Pink app</h3>
+    	  <p>Продуктовый лендинг приложения для iOS и Android</p>
+    		<p class="button"><a href="#">9 900 руб.</a></p>
+    	      </section>
     	</li>
-  	  <li class="menu-item">
-    		<a href="#">
-    		<img src="img/img-barbershop.jpg" alt="Barbershop" width="360" height="576">
-    	  </a>
+  	  <li class="menu-item"><section>
+    		<a href="#"><img src="img/img-barbershop.jpg" alt="Barbershop" width="360" height="576"></a>
+    		<h3>Barbershop</h3>
+    	  <p>Сайт салоны красоты. Для мужчин, да.</p>
+    		<p class="button"><a href="#">9 900 руб.</a></p>
+    	      </section>
     	</li>
-    	<li class="menu-item">
-    		<a href="#">
-    		<img src="img/img-mishka.jpg" alt="Mishka" width="360" height="576">
-    	  </a>
+    	<li class="menu-item"><section>
+    		<a href="#"><img src="img/img-mishka.jpg" alt="Mishka" width="360" height="576"></a>
+    		<h3>Mishka</h3>
+    	  <p>Интернет-магазин вязаных игрушек</p>
+    		<p class="button"><a href="#">9 900 руб.</a></p>
+    	      </section>
     	</li>
-    	<li class="menu-item">
-    		<a href="#">
-    		<img src="img/img-aplus.jpg" alt="A+" width="360" height="576">
-    	  </a>
+    	<li class="menu-item"><section>
+    		<a href="#"><img src="img/img-aplus.jpg" alt="A+" width="360" height="576"></a>
+    		<h3>A Plus</h3>
+    	  <p>Лендинг курсов повышения квалификации</p>
+    		<p class="button"><a href="#">9 900 руб.</a></p>
+      </section>
     	</li>
-    	<li class="menu-item">
-    		<a href="#">
-    		<img src="img/img-kvast.jpg" alt="Kvast" width="360" height="576">
-    	  </a>
+    	<li class="menu-item"><section>
+    		<a href="#"><img src="img/img-kvast.jpg" alt="Kvast" width="360" height="576"></a>
+    		<h3>Кваст</h3>
+    	  <p>Промо-сайт производителя крафтового кваса</p>
+    		<p class="button"><a href="#">9 900 руб.</a></p>
+      </section>
     	</li>
     </ul>
     <ul class="pagination-list">
@@ -151,5 +161,22 @@
 </div>
 </footer>
 
+<section class="modal write-us">
+     <h2>Напишите нам</h2>
+     <form action="https://echo.htmlacademy.ru" method="post">
+         <p><lable for="login-modal">Ваше имя</lable>
+         <input class="write-us-name" type="text" name="login" placeholder="Представьтесь, пожалуйста" id="login-modal"></p>
+
+
+         <p><lable for="email">Ваш e-mail</lable>
+         <input class="write-us-email" type="email" name="email" placeholder="Для отправки ответа" id="email"></p>
+
+         <p><lable for="text">Текст письма</lable>
+         <textarea id="text">В свободной форме</textarea></p>
+
+       <button class="button" type="submit">Отправить</button>
+     </form>
+    <button class="modal-close">Закрыть</button>
+   </section>
 </body>
 </html>
