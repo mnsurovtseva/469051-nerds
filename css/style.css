@@ -1,9 +1,11 @@
 body {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 24px;
   color: black;
   font-weight: normal;
-  font-family: Roboto;
+  font-family: "Roboto", Arial, sans-serif ;
 }
 
 .application-header {
@@ -11,7 +13,11 @@ body {
   line-height: 30px;
   color: black;
   font-weight: bold;
-  font-family: Roboto;
+  font-family: "Roboto", Arial, sans-serif ;
+  text-transform: uppercase;
+}
+.application-header p {
+  color: #283136;
 }
 
 .main-header {
@@ -19,5 +25,247 @@ body {
   line-height: 55px;
   color: black;
   font-weight: bold;
-  font-family: Roboto;
+  font-family: "Roboto", Arial, sans-serif ;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: #eeeeee;
+  background-image: url("img/background_header.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.description1 {
+  background-color: #eeeeee;
+  background-image: url("img/slide1.png"); /*не понимаю почему нет фоновой каритинки:( */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.description2 {
+  background-color: #eeeeee;
+  background-image: url("img/slide2.png"); /*не понимаю почему нет фоновой каритинки:( */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.description3 {
+  background-color: #eeeeee;
+  background-image: url("img/slide3.png"); /*не понимаю почему нет фоновой каритинки:( */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.header-navigation-list {
+  list-style: none;
+}
+
+.header-navigation-list a {
+  color: black;
+  font: inherit;
+}
+
+ .header-menu-item a:hover,
+ .header-menu-item a:focus {
+  color: #fb565a;
+}
+
+.header-menu-item a:active {
+  color: rgba(0, 0, 0 , 0.3);
+}
+
+.description-advertisment {
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
+}
+
+.description-more {
+  color: #283136;
+}
+
+.features-advertisment {
+  font-size: 45px;
+  line-height: 45px;
+}
+.features-advertisment p {
+    color: #283136;
+}
+
+.features-menu {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fetures-list {
+  color: #283136;
+}
+
+.statistics caption {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.statistics th {
+  font-size: 45px;
+  line-height: 10.06px;
+}
+
+.statistics td {
+  font-size: 16px;
+  line-height: 18px;
+  color: #283136;
+}
+
+.footer-contacts h3 {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer-contacts p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.footer-social p:first-child {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.footer-social p:nth-child(2) {
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+}
+
+.modal h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.modal input,
+.modal textarea {
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(68, 68, 68, 0.5);
+  font-weight: normal;
+  border: 2px solid #d7dcde;
+}
+
+.modal input:hover,
+.modal textarea:hover {
+  border: 2px solid #b4b9bb;
+}
+
+.modal input:focus,
+.modal textarea:focus {
+  color: #444444;
+  border: 2px solid black;
+  outline: none;
+}
+
+.modal input:invalid {
+  border: 2px solid #e74246;
+  color: #e74246;
+}
+
+.modal label {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.variants-list,
+.features ul,
+.links ul,
+.footer-social ul {
+  list-style: none;
+}
+
+.header-logo:hover {
+  opacity: 0.8;
+}
+
+.header-logo:active {
+  opacity: 0.3;
+}
+
+.button {
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+}
+
+.type1 {
+ background-color: #fb565a;
+}
+
+.type1:hover,
+.type1:focus {
+   background-color: #e74246;
+}
+
+.type1:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.type2 {
+  background-color: #00ca74;
+}
+
+.type2:hover,
+.type2:focus {
+  background-color: #00bc6c;
+}
+
+.type2:active {
+  background-color: #00aa62;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.type3 {
+  background-color: #efc84a;
+}
+
+.type3:hover,
+.type3:focus {
+  background-color: #eab534;
+}
+
+.type3:active {
+  background-color: #e5a722;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.links-logo {
+  opacity: 0.2
+}
+
+.links-logo:hover,
+.links-logo:focus {
+  opacity: 1;
+}
+
+.links-logo:active {
+  opacity: 0.1;
 }
