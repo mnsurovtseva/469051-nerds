@@ -6,6 +6,7 @@ body {
   color: black;
   font-weight: normal;
   font-family: "Roboto", Arial, sans-serif ;
+  background-color: white;
 }
 
 .application-header {
@@ -40,28 +41,25 @@ a {
 
 .header {
   background-color: #eeeeee;
-  background-image: url("img/background_header.jpg");
-  background-position: 0 0;
-  background-repeat: repeat;
 }
 
 .description1 {
   background-color: #eeeeee;
-  background-image: url("img/slide1.png"); /*не понимаю почему нет фоновой каритинки:( */
+  background-image: url("../img/slide1.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
 .description2 {
   background-color: #eeeeee;
-  background-image: url("img/slide2.png"); /*не понимаю почему нет фоновой каритинки:( */
+  background-image: url("../img/slide2.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
 .description3 {
   background-color: #eeeeee;
-  background-image: url("img/slide3.png"); /*не понимаю почему нет фоновой каритинки:( */
+  background-image: url("../img/slide3.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
@@ -268,4 +266,168 @@ a {
 
 .links-logo:active {
   opacity: 0.1;
+}
+
+.header-active {
+  color: black;
+  border-bottom: 1px solid #fb565a;
+}
+
+.main-header {
+  font-size: 55px;
+  line-height: 55px;
+  text-align: center;
+  background-color:  #eeeeee;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter ul {
+  list-style: none;
+}
+
+.filter legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.filter label {
+  font-size: 16px;
+  line-height: 20px;
+  color: #283136;
+}
+
+.filter .filter-input-radio + label:hover {
+  color: black;
+}
+
+.filter .filter-input-radio + label:disabled {
+  color: rgba(40, 49, 54, 0.3);
+}
+
+.filter .filter-input-checkbox + label:hover {
+
+}
+
+.filter .filter-input-checkbox + label:disabled{
+  color: rgba(40, 49, 54, 0.3);
+}
+
+.filter-button {
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  color: black;
+  background-color: rgba(238, 238, 238, 0.3);
+}
+
+.filter-button:hover {
+  background-color: #dfdfdf;
+}
+
+.filter-button:active {
+  background-color: #d5d5d5;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.separator p {
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.separator ul {
+  list-style: none;
+}
+
+.separator-link {
+  font: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: black;
+  opacity: 0.3;
+}
+
+.separator-link:hover {
+  color: black;
+  opacity: 0.6;
+}
+
+.separator-link:active {
+  color: black;
+  opacity: 1;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu h3 + p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.type4 {
+  background-color: #fb565a;
+}
+
+.type4:hover,
+.type2:focus {
+  background-color: #e74246;
+}
+
+.type4:active {
+  background-color: #d7373b;
+}
+
+.menu-decoration {
+  background-color: #eeeeee;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  font: inherit;
+  color: black;
+  background-color: #eeeeee;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.pagination-item a:hover {
+  background-color: #dfdfdf;
+}
+
+.pagination-item a:active {
+  background-color: #d5d5d5;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.pagination-item-current a {
+  border: 3px solid #dbdbdb;
+  background-color: white;
+}
+
+.pagination-item-next a {
+  text-transform: uppercase;
+}
+
+.menu-item li:hover {
+  box-shadow: 0px 6px 15px 0px rgba(0, 1, 1, 0.25); /*не работает пока*/
 }
