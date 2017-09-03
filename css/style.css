@@ -37,9 +37,6 @@ a {
   font-size: 16px;
   line-height: 30px;
   text-transform: uppercase;
-}
-
-.header {
   background-color: #eeeeee;
 }
 
@@ -66,6 +63,8 @@ a {
 
 .header-navigation-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header-navigation-list a {
@@ -286,6 +285,8 @@ a {
 
 .filter ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .filter legend {
@@ -343,6 +344,8 @@ a {
 
 .separator ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .separator-link {
@@ -366,6 +369,8 @@ a {
 
 .menu ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .menu h3 {
@@ -430,4 +435,116 @@ a {
 
 .menu-item li:hover {
   box-shadow: 0px 6px 15px 0px rgba(0, 1, 1, 0.25); /*не работает пока*/
+}
+
+.header-wrapper {
+  display: flex;
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 49px;
+  outline: 1px solid black;
+}
+
+.header-navigation-list {
+  width: 800px;
+  margin-left: 200px;
+}
+
+.variants-wrapper {
+  width: 1100px;
+  margin-left: 140px;
+  margin-right: 200px;
+}
+
+.variants-list {
+  display: flex;
+  outline: 1px solid black;
+  justify-content: space-between;
+}
+
+.variants-list li {
+  width: 300px;
+
+}
+
+.variants-list li:last-child {
+  margin-right: 0;
+}
+
+
+.main-wrapper {
+  display: flex;
+  outline: 1px solid black;
+  width: 1160px;
+  margin: auto;
+}
+
+.features {
+  width: 660px;
+}
+
+.statistics {
+  width: 360px;
+  margin-left: 140px;
+}
+
+.links-list {
+  width: 1160px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  outline: 1px solid black;
+  min-height: 185px;
+}
+
+.links-list li {
+  width: 260px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer-social {
+  display: flex;
+  outline: 1px solid black;
+}
+
+.footer-social-wrapper {
+  width: 560px;
+  order: 1;
+}
+
+.social-button-list {
+  width: 260px;
+  margin-right: 140px;
+  margin-left: 139px;
+}
+
+.main-inner-wrapper {
+  display: flex;
+  width: 1160px;
+  margin: auto;
+  outline: 1px solid black;
+}
+
+.filter-wrapper {
+  width: 260px;
+  margin-right: 140px;
+}
+
+.menu-wrapper {
+  width: 760px;
+}
+
+.menu-item-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item-list li {
+  width: 360px;
+}
+
+.menu-item-list li:nth-child(2n) {
+  margin-left: 40px;
 }
