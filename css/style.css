@@ -464,6 +464,7 @@ a {
 
 .header-wrapper {
   display: flex;
+  flex-wrap: wrap;
   width: 1160px;
   margin-left: auto;
   margin-right: auto;
@@ -484,6 +485,7 @@ a {
 
 .variants-list {
   display: flex;
+  flex-wrap: wrap;
   outline: 1px solid black;
   justify-content: space-between;
 }
@@ -500,6 +502,7 @@ a {
 
 .main-wrapper {
   display: flex;
+  flex-wrap: wrap;
   outline: 1px solid black;
   width: 1160px;
   margin: auto;
@@ -517,6 +520,7 @@ a {
 .links-list {
   width: 1160px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: auto;
   outline: 1px solid black;
@@ -531,6 +535,7 @@ a {
 
 .footer-social {
   display: flex;
+  flex-wrap: wrap;
   outline: 1px solid black;
 }
 
@@ -547,6 +552,7 @@ a {
 
 .main-inner-wrapper {
   display: flex;
+  flex-wrap: wrap;
   width: 1160px;
   margin: auto;
   outline: 1px solid black;
@@ -563,6 +569,7 @@ a {
 
 .menu-item-list {
   display: flex;
+  flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
